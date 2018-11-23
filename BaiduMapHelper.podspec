@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BaiduMapHelper"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "百度地图部分功能封装"
 
   s.description  = <<-DESC
@@ -65,7 +65,7 @@ s.swift_version = '4.2'
 
   # s.requires_arc = true
 
-  s.xcconfig = { s.xcconfig = 'SWIFT_OBJC_BRIDGING_HEADER' => '${PODS_ROOT}/Classes/Bridging-Header.h' }
+  # s.xcconfig = { s.xcconfig = 'SWIFT_OBJC_BRIDGING_HEADER' => '${PODS_ROOT}/Classes/Bridging-Header.h' }
   s.dependency "BMKLocationKit"
   s.dependency "BaiduMapKit"
   s.dependency "SPLog"
